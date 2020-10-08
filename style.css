@@ -1,0 +1,44 @@
+h1 {
+    color: brown; 
+}
+
+* {
+    border: solid;
+}
+
+.header {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro {
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    background-color: yellow;
+}
+
+.grid {
+    background-color: violet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer {
+    background-color: wheat;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pro {
+    background-color: crimson;
+}
+
+.body {
+    background-color : lime;
+}
