@@ -20,6 +20,9 @@ h1 {
 
 .menu {
     background-color: yellow;
+    display: flex;
+    align-items: center;
+    padding: 5px;
 }
 
 .grid {
@@ -36,9 +39,16 @@ h1 {
 }
 
 .pro {
+    text-align: center;
     background-color: crimson;
 }
 
 .body {
     background-color : lime;
+}
+@media(max-width:830px){
+    .intro{
+        flex-direction: column;
+        padding: 10px;
+    }
 }
